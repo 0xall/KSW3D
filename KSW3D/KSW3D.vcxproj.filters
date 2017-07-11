@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\KSW3D">
+      <UniqueIdentifier>{1f2acb05-d2a4-4c71-9c29-b89e97e86159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\KSW3D">
+      <UniqueIdentifier>{106dccb7-d2ea-4710-85fd-72035cc4404b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\KSW3D\Manager">
+      <UniqueIdentifier>{30e79b2f-2aba-480d-8969-fb3562601234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\KSW3D\Manager">
+      <UniqueIdentifier>{1e4bdf3e-2f54-4068-b277-c1bf38f49f20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\KSW3D\App">
+      <UniqueIdentifier>{9f07741a-333e-470b-8c5d-c8fcca822862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\KSW3D\Utilities">
+      <UniqueIdentifier>{f6df238a-4b69-4a65-b93d-d982d98630f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\KSW3D\Utilities">
+      <UniqueIdentifier>{74d9da26-77a5-419a-b947-b78e2be8ade3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\KSW3D\App">
+      <UniqueIdentifier>{e5405015-6fb6-4bfc-9035-ea5bcfa6f943}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\KSW3D\Tiles">
+      <UniqueIdentifier>{21866f43-78e1-4cd6-ba7c-607d898a817b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\KSW3D\Tiles">
+      <UniqueIdentifier>{25e80f6c-03bf-40af-a7d4-0de771df6d13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\KSW3D\Objects">
+      <UniqueIdentifier>{5e2bf951-5f16-4d96-ba2b-1d7d0491023f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="KSW3DDef.h">
+      <Filter>헤더 파일\KSW3D</Filter>
+    </ClInclude>
+    <ClInclude Include="KSW3DDebug.h">
+      <Filter>헤더 파일\KSW3D</Filter>
+    </ClInclude>
+    <ClInclude Include="KShader.h">
+      <Filter>헤더 파일\KSW3D\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="KCamera.h">
+      <Filter>헤더 파일\KSW3D\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="KTexturedTile.h">
+      <Filter>헤더 파일\KSW3D\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="KColorTile.h">
+      <Filter>헤더 파일\KSW3D\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="KBaseTile.h">
+      <Filter>헤더 파일\KSW3D\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="KBaseObject.h">
+      <Filter>헤더 파일\KSW3D\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="KAppWnd.h">
+      <Filter>헤더 파일\KSW3D\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="K3DApp.h">
+      <Filter>헤더 파일\KSW3D\App</Filter>
+    </ClInclude>
+    <ClInclude Include="KObjectManager.h">
+      <Filter>헤더 파일\KSW3D\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="KShaderManager.h">
+      <Filter>헤더 파일\KSW3D\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="KMeshManager.h">
+      <Filter>헤더 파일\KSW3D\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="KMesh.h">
+      <Filter>헤더 파일\KSW3D\Utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MAIN.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="KShader.cpp">
+      <Filter>소스 파일\KSW3D\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="KCamera.cpp">
+      <Filter>소스 파일\KSW3D\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="KColorTile.cpp">
+      <Filter>소스 파일\KSW3D\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="KBaseTile.cpp">
+      <Filter>소스 파일\KSW3D\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="KAppWnd.cpp">
+      <Filter>소스 파일\KSW3D\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="K3DApp.cpp">
+      <Filter>소스 파일\KSW3D\App</Filter>
+    </ClCompile>
+    <ClCompile Include="KShaderManager.cpp">
+      <Filter>소스 파일\KSW3D\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="KMesh.cpp">
+      <Filter>소스 파일\KSW3D\Utilities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Text.txt">
+      <Filter>헤더 파일</Filter>
+    </Text>
+    <Text Include="TestShader.fx">
+      <Filter>헤더 파일\KSW3D</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
